@@ -1,9 +1,10 @@
 import './App.css'
+import {Todos} from "./components/Todos.tsx";
 
 function App() {
   return (
     <>
-      Hi words
+        <Todos/>
     </>
   )
 }

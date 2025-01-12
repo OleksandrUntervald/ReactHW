@@ -6,7 +6,7 @@ export const Todos = () => {
     const [todos, setTodos] = useState<ITodo[]>([]);
 
     useEffect(()=> {
-        fetch('https://jsonplaceholder.typicode.com/todos')
+        fetch('https://dummyjson.com/todos')
             .then(value => value.json())
             .then((iTodos: ITodo[]) => {
                 setTodos(iTodos)
